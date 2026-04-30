@@ -1,0 +1,10 @@
+sources:
+    - name: postgres
+      description: This is a replica of the Postgres database used by our app
+      database: tickets-436319
+      schema: public
+      tables:
+          - name: orders
+          - name: users
+          - name: transactions
+          - name: refunds
