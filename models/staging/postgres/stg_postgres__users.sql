@@ -14,7 +14,7 @@ renamed as (
         firstname,
         lastname,
         address,
-        created_at
+        created_at as registered_at
 
     from source
 
