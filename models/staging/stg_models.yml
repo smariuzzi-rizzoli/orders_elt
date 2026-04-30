@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: stg_drive__methods
+  - name: stg_postgres__orders
+  - name: stg_postgres__refunds
+  - name: stg_postgres__transactions
+  - name: stg_postgres__users
