@@ -35,6 +35,7 @@ joined as (
 
         coalesce(transactions.amount, 0) as paid_amount,
         coalesce(refunds.amount, 0) as refunded_amount,
+        refunds.created_at as refunded_at,
         methods.fee
 
 

@@ -3,3 +3,12 @@ version: 2
 models:
   - name: dim_users
   - name: dim_methods
+  - name: fct_orders
+    columns:
+      - name: order_id
+        data_tests:
+          - unique
+          - not_null
+      - name: order_at
+        data_tests:
+          - not_null
